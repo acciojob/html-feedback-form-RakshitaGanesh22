@@ -7,16 +7,17 @@
 </head>
 
 <body>
-	<form action="#">
+	<form action="#" method="post">
+		<caption>Feedback Form</caption>
+        <input type="text" id="name" name="name" minlength="3" maxlength="50" required>
         <label for="name">Name</label>
-        <input type="text" id="name" name="name" min="3" max="50" required>
+		<input type="url" id="portfolio" name="users webpage" required>
         <label for="portfolio">user's webpage</label>
-        <input type="url" id="portfolio" name="users webpage" required>
+		<input type="color" id="favColor" name="favcolor">
         <label  for="favColor">fvrcolor</label>
-        <input type="color" id="favColor" name="favcolor">
-        <label for="likeness">likeness</label>
-        <input type="number" name="likeness" id="likeness" min="1" max="100"></select>
-    </form>
+		<input type="range" name="likeness" id="likeness" min="1" max="100"></select>
+	    <label for="likeness">likeness</label>
+	</form>
 	<!-- the entire body must be written by student -->
     <script type="text/javascript" src="./script.js">
 </script>
